@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0
+}
+
+body {
+  text-align: center;
+  font-size:2em;
+}
+
+div#mainImageContainer {
+background: skyblue;
+width: 8em;
+height: 9em;
+margin: 1em auto;
+}
+
+img#mainImage {
+ width: 80%;
+ height:80%;
+}
+
+h3#mainName {
+  margin-top: -20px;
+}
+
+div.pokeSquare {
+  background: skyblue;
+  box-shadow: 0 0 1px black,
+              0 0 2px black,
+              0 0 3px black;
+  padding: 10px;
+
+}
+
+div.pokeSquare:hover {
+  background: rgba(0,0,0,.1);
+}
+
+.renderBtn {
+  margin-bottom: 1em;
+}
+
+div#test {
+  z-index:1;
+  height: 5em;
+  width:5em;
+  position: fixed;
+  top: 0;
+  background:clear;
+}
+
